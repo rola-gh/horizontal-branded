@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+*,
+*::before,
+*::after {
+ 	box-sizing: border-box;
+}
+body {
+ 	margin: 0;
+ 	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+ h1,h2{
+	 text-transform: uppercase;
+	 color: white;
+	 font-weight: bolder;
+ }
+ h1{
+	 font-size: 100px;
+	 width: 50%;
+	 margin: 150px 0 0  183px;
+	 line-height: 90px;
+
+ }
+ h2{
+	 font-size: 45px;
+	 line-height: 50px;
+
+ }
+
+.wrapper{
+	display: flex;
+}
+.left-side{
+	width: 57%;
+}
+.right-side{
+	display: block;
+	text-align: center;
+	width: 43%;
+	vertical-align: middle;
+	background-color: #393939;
+}
+.main-image{
+	 top: 10px;
+	 left: 10px;
+	 z-index: 1;
+	 display: block;
+	 width: 155%;
+	 height: 100vh;
+	 object-fit: cover;
+}
+.logo{
+ position:absolute;
+ z-index: 2;
+ background-color: white;
+ padding: 12px;
+}
+.logo-main {
+	top: 0;
+ 	left: 0;
+}
+.logo-copy{
+	top: 0;
+    left: 94px;
+}
+
+.team-logo{
+	top: 70px;
+
+}
+.vl {
+ border-left: 7px solid #dd9450;
+ height: 720px;
+}
